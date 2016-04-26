@@ -14,7 +14,7 @@ if __name__ == u"__main__":
 
     print(u"playing a little video (10 seconds worth)")
     counter = Counter()
-    fc.startVideo(dummy_videoframe_handler, counter)
+    fc.startVideo(fc.dummy_videoframe_handler, counter)
     time.sleep(timeFrames)
 
     print
